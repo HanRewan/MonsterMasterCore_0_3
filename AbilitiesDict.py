@@ -1,4 +1,4 @@
-
+from _local_data import *
 
 
 class AbilitiesDict:

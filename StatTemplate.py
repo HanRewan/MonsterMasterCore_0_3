@@ -17,4 +17,5 @@ class StatTemplate:
 
     def checkweights(self, *args):
         if sum(args) != 100:
-            raise TypeError("Weights must sum up to 100.")
+                print(args)
+                raise TypeError("Weights must sum up to 100.")

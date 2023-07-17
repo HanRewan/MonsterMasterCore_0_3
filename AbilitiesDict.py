@@ -8,5 +8,5 @@ class AbilitiesDict:
     def generateemptydict(self):
         res = dict()
         for name in abilities:
-            res[name] = dict()
+            res[name] = list()
         return res
